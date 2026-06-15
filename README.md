@@ -3,6 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
   <img src="https://img.shields.io/badge/FIAP-Avalia%C3%A7%C3%A3o-ed145b?style=for-the-badge" alt="FIAP">
 </p>
 
@@ -43,11 +44,11 @@ Como o projeto foca na estruturação Front-end utilizando Tailwind via CDN, a e
 
 1.  Faça o clone deste repositório:
     ```bash
-    git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
+    git clone https://github.com/recpires/financaCasal.git
     ```
 2.  Acesse o diretório do projeto:
     ```bash
-    cd NOME_DO_REPOSITORIO
+    cd financaCasal
     ```
 3.  Abra o arquivo `index.html` diretamente em qualquer navegador moderno (Google Chrome, Firefox, Edge, etc.).
 
