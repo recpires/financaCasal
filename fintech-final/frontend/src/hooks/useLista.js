@@ -23,7 +23,7 @@ export default function useLista(buscar, dependencias = []) {
     return () => {
       ativo = false
     }
-  }, [...dependencias, versao]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [...dependencias, versao])
 
   return { itens, carregando, erro, recarregar: () => setVersao((v) => v + 1) }
 }

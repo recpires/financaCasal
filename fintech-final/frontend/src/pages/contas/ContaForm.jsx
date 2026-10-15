@@ -42,7 +42,8 @@ export default function ContaForm() {
             tipo: conta.tipo,
             agencia: conta.agencia,
             limiteChequeEspecial: conta.limiteChequeEspecial ?? '',
-            taxaPercentual: conta.taxaRendimentoMensal != null ? String(conta.taxaRendimentoMensal * 100) : '',
+            taxaPercentual: conta.taxaRendimentoMensal != null
+              ? String(Number((conta.taxaRendimentoMensal * 100).toFixed(2))) : '',
             ativa: conta.ativa,
           })
         }

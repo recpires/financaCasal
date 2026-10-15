@@ -37,7 +37,7 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(RegraNegocioException.class)
     public ResponseEntity<ErroResponse> regraNegocio(RegraNegocioException e) {
-        return resposta(HttpStatus.UNPROCESSABLE_CONTENT, e.getMessage(), null);
+        return resposta(HttpStatus.UNPROCESSABLE_ENTITY, e.getMessage(), null);
     }
 
     @ExceptionHandler(AutenticacaoException.class)
